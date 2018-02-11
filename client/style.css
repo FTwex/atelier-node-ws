@@ -1,0 +1,53 @@
+body {
+    font-family: arial;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#iconsCredits, #iconsCredits a, #info {
+    color: grey;
+    font-size: 10px;
+}
+
+#iconsCredits {
+    clear: both;
+}
+
+#radarMap {
+    height: 500px;
+}
+
+#heartbeat {
+    text-align: center;
+    font-size: 100px;
+    float: right;
+    width: 50%
+}
+
+#info {
+    float: left;
+    width: 50%;
+}
+
+.linkDown {
+    color: red;
+    animation: blinkerRed 1s step-start infinite;
+}
+
+.blink {
+    color: green;
+    animation: blinkerGreen 1s linear infinite;
+}
+
+@keyframes blinkerGreen {
+  1% { color: lightgreen; }
+}
+
+@keyframes blinkerRed {
+  50% { color: grey; }
+}

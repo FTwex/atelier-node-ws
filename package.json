@@ -1,0 +1,23 @@
+{
+  "name": "atelier-node-ws",
+  "version": "1.0.0",
+  "description": "atelier-node-ws",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FTwex/atelier-node-ws.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FTwex/atelier-node-ws/issues"
+  },
+  "homepage": "https://github.com/FTwex/atelier-node-ws#readme",
+  "dependencies": {
+    "pm2": "^2.9.3",
+    "socket.io": "^2.0.4"
+  }
+}
