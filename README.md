@@ -1,5 +1,8 @@
 # Atelier Node.js / Socket.io
 
+> This branch is not the final project.
+> You can use it to start the projet.
+
 ## Requirements
 
 - Node.js >= 4.x
